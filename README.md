@@ -2,7 +2,7 @@
 ![](img/newlogo.png)
 
 **Course Date:** 08.03.2021  
-**Name:** Uluç
+**Name:** Uluç <b\>
 **Surname:** Döver  
 **Email:** reisgoldman@gmail.com 
 
