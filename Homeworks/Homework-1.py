@@ -24,3 +24,7 @@ new_list = first_list + second_list  # Merging the lists
 for i in new_list:  # Using for loop to get the values in (new_list)
 	i * 2  # Multiplying all values by 2 in the (new_list)
 	print(type(i))  # Printing the data types of all values in the (new_list)
+
+	
+	
+	
