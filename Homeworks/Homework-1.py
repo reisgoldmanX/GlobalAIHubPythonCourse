@@ -22,8 +22,8 @@ second_list = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]  # Contains even numbers
 new_list = first_list + second_list  # Merging the lists
 new_list = [i*2 for i in new_list]  # Multiplying all values by 2 in the (new_list)
 
-for j in new_list:
-	print(type(j))
+for j in new_list:  # Looping in the (new_list)
+	print(type(j))  # Printing the data types of the values in the list
 
 
 	
