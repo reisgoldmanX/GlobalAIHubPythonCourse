@@ -10,6 +10,7 @@ mehmet_cv = {"Name": "Mehmet",
              "Age": 34,
              "Gender": "Male",
              "Job": "Doctor",
+             "Job experience": "5 Years",
              "Language": "English"}
 
 ahmet_cv = {"Name": "Ahmet",
@@ -17,6 +18,7 @@ ahmet_cv = {"Name": "Ahmet",
             "Age": 25,
             "Gender": "Male",
             "Job": "Engineer",
+            "Job experience": "1 Year",
             "Language": "Turkish"}
 
 alper_cv = {"Name": "Alper",
@@ -24,6 +26,7 @@ alper_cv = {"Name": "Alper",
             "Age": 22,
             "Gender": "Male",
             "Job": "Cashier",
+            "Job experience": "2 Years",
             "Language": "Russian"}
 
 nehir_cv = {"Name": "Nehir",
@@ -31,6 +34,7 @@ nehir_cv = {"Name": "Nehir",
             "Age": 27,
             "Gender": "Female",
             "Job": "Teacher",
+            "Job experience": "3 Years",
             "Language": "Turkish"}
 
 ezgi_cv = {"Name": "Ezgi",
@@ -38,13 +42,14 @@ ezgi_cv = {"Name": "Ezgi",
            "Age": 29,
            "Gender": "Female",
            "Job": "Freelancer",
+           "Job experience": "2 Years",
            "Language": "English"}
 
-cv_s = [mehmet_cv, ahmet_cv, alper_cv, nehir_cv, ezgi_cv]
+cv_s = [mehmet_cv, ahmet_cv, alper_cv, nehir_cv, ezgi_cv]  # Putting dictionaries in a list
 
-for i in cv_s:
-    for k, v in i.items():
-        print(f"{k}: {v}")
-        if not cv_s[-1] == i:
-            if k == "Language":
+for i in cv_s:  # Looping in a list for dictionaries
+    for k, v in i.items():  # Looping in a dictionary for items
+        print(f"{k}: {v}")  # Printing the keys and the values
+        if not cv_s[-1] == i:  # Getting the  dictionaries in the list except fot the last one
+            if k == "Language":  # İf key equals to "languages" key prints the separating line
                 print("--" * 12)
