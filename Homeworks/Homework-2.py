@@ -45,7 +45,6 @@ cv_s = [mehmet_cv, ahmet_cv, alper_cv, nehir_cv, ezgi_cv]
 for i in cv_s:
     for k, v in i.items():
         print(f"{k}: {v}")
-        if cv_s[-1] == i:
-            pass
-        elif k == "Language":
-            print("----------------------")
+        if not cv_s[-1] == i:
+            if k == "Language":
+                print("--" * 12)
