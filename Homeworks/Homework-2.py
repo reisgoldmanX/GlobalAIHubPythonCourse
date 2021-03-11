@@ -50,6 +50,6 @@ cv_s = [mehmet_cv, ahmet_cv, alper_cv, nehir_cv, ezgi_cv]  # Putting dictionarie
 for i in cv_s:  # Looping in a list for dictionaries
     for k, v in i.items():  # Looping in a dictionary for items
         print(f"{k}: {v}")  # Printing the keys and the values
-        if not cv_s[-1] == i:  # Getting the  dictionaries in the list except fot the last one
+        if not cv_s[-1] == i:  # Getting the  dictionaries in the list except for the last one
             if k == "Language":  # İf key equals to "languages" key prints the separating line
                 print("--" * 12)
