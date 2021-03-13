@@ -19,7 +19,7 @@ Knowledge competition program.
 + İf User answers 5 or fewer questions, it will be considered unsuccessful.
 + İf the user answers more than 5 questions correctly, it will be considered successful.
 
-### Requierements
+### Requirements
 + [Python](https://www.python.org/)
 ---
 
