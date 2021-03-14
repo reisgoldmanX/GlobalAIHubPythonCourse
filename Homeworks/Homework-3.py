@@ -40,3 +40,4 @@ def student_list(student_dict):  # Passing student dictionaries to the list
 
 for i in range(0, 6):
     student_list(student_info(student_grade()))
+print(student_list(student_info(student_grade())))
