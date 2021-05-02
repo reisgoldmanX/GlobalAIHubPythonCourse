@@ -24,5 +24,5 @@ Final project of [GlobalAiHub](https://globalaihub.com/) **introduction to Pytho
 ---
 
 ### Certification
-![](img/GlobalAiHub.png)
+![](img/TopLearnerCertificate.png)
 
